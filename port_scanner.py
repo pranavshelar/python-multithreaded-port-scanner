@@ -81,7 +81,7 @@ def start_scan(ip, start_port, end_port):
     save_results(ip)
 
 
-def save_resuls(ip):
+def save_results(ip):
     with open(LOG_FILE, "a") as f:
         f.write(f"\n\nScan Report for {ip} | {datetime.now()}\n")
         f.write("-" * 50 + "\n")
@@ -109,4 +109,5 @@ except:
 
 
 start_scan(target, start, end)
+
 
