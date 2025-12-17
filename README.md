@@ -38,3 +38,17 @@ This design avoids race conditions, simplifies concurrency control, and scales e
 ```bash
 git clone https://github.com/your-username/python-multithreaded-port-scanner.git
 cd python-multithreaded-port-scanner
+
+### Run the scanner
+```bash
+python port_scanner.py
+
+### Example Input
+```` Enter Target IP: 127.0.0.1
+Start Port: 1
+End Port: 1024
+
+
+
+
+
